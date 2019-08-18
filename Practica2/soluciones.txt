@@ -1,0 +1,20 @@
+Línea 9: El tipo de dato está mal escrito (booleaN). -> Lo cambié a boolean.
+
+Línea 9: Al tipo de dato boolean se le asignó como valor 0. -> Los valores permitidos para los tipos de datos booleanos son true ó false, sustituí al cero por false.
+
+Línea 10: El valor asignado a ochoBits se pasa del rango establecido. -> El rango permitido es de -128 a 127, cambié la cifra a 127.
+
+Línea 11: El valor asignado en short no está dentro del rango. -> El rango permitido va de -32768 a 32767, cambié el valor asignado (-32769) por -32768.
+
+Línea 14: Se utiliza "long" (utilizado para números enteros) para x1 (que incluye una raíz cuadrática). -> Cambié long por double.
+
+Línea 14: La variante "Discriminante" está escrita con mayúscula y así no fue declarada. -> Cambié la "D" mayúscula por una minúscula, ya que "discriminante" sí está declarada.
+
+Línea 17: El tipo de dato "Char" está escrito con mayúscula, por lo tanto no es reconocido. -> Cambié Char por char (en minúsculas).
+
+Línea 18: La variable "ch" no está declarada. -> ch1 sí está declarada, por lo que es de suponer que a ch le faltó colocar el 1. Entonces lo cambié a ch1.
+
+Línea 18: La constante de ch2 está escrita entre comillas ("w"). -> Las constantes de tipo char se especifican entre apóstrofos por lo que cambié "w" por 'w'.
+
+Línea 19: Hay un error al intentar dividir entre 0, ésto ocurre porque a = 3, la operación "1 / (a - 3)" marca error ya que "1 / (0)" no es posible de hacer. -> Cambié el valor de 3 por cualquier otro número, en este caso "4", quedando "int d = 1 / (a - 4)" 
+
