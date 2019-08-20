@@ -1,0 +1,20 @@
+-EXPLICACIÓN "PrePost"
+
+     La razón por la que se imprime al número 17 dos veces, es porque cuando se nos muestra 18 (x=18), la siguente lína de código en el System.out.printl lleva un --x (predecremento) esto hace que se le reste 1 a la x antes dada (18) para posteriormente mostrarlo, esto es lo que hace que veamos al 17 por primera vez. 
+     Después volvemos a ver 17 porque en la siguiente línea del código System.out.printl hay un x-- (postdecremento), esto hace que nos vuelva a mostrar primero la x (x=17) y después hace la respectiva resta (17 - 1), mostrando en la siguiente línea del código a 16.
+     Podríamos poner mejor:
+      int x = 20;
+		  x--;
+		  System.out.println(x);
+		  --x;
+		  System.out.println(x);
+		  System.out.println(--x);
+		  System.out.println(--x);
+		  System.out.println(--x);
+
+    
+
+
+-EXPLICACIÓN "Operadores"
+
+     La razón por la que se obtiene el primer resultado (7) es porque tanto "dividendoEntero" como "divisor" están declarados con int (tipo de dato usado para obtener enteros) por lo que el resultado claramente no arrogará decimales, sino que se quedará en el entero. En el caso contrario donde el resultado es más exacto (7.8) es debido a que "dividendoReal" está declarado con double (usado para números decimales), por lo que el resultado será en decimales aunque se haya dividido entre una variable declarada con int.
