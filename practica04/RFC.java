@@ -32,6 +32,10 @@ public class RFC {
 	    rfc = rfc.toUpperCase();
     System.out.println ("El RFC de " + nombreCompleto + " es: " + rfc);		
 	}
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> aac0b76ffa3387785778f233934c95d5cd7242aa
