@@ -1,5 +1,8 @@
 /**
- * Crear la clase Libro, para posteriormente tener sus atributos autor, titulo y año.
+ * Crear la clase Libro, para posteriormente tener sus atributos (autor, titulo y año). Además de poder asignarles (a los atributos)
+ * otros valores.
+ * @author Cristóbal Morales Karen
+ * @version 1.0
  */
 
 public class Libro {
