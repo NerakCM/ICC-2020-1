@@ -22,7 +22,7 @@ public class Dama extends Pieza {
   
     //Avanza diagonalmente 
         for ( int i = fila - 1, j = columna - 1; i >= 0 && j >= 0; i --, j--){ 
-        	Pieza p = tab.obtenerPosicion (i, j);
+        	Pieza p = tab.obtenerPieza (i, j);
         	if (p == null){
         		jugadas.add(new Posicion (i,j)); 
         	}else{
